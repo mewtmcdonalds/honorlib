@@ -17,6 +17,7 @@ G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 -- StarterGui.HonorUILib.Templates
 G2L["2"] = Instance.new("Folder", G2L["1"]);
 G2L["2"]["Name"] = [[Templates]];
+G2L["2"].Parent = nil
 
 -- StarterGui.HonorUILib.Templates.ToggleTemplate
 G2L["3"] = Instance.new("TextButton", G2L["2"]);
